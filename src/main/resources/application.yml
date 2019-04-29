@@ -1,0 +1,14 @@
+server:
+  port: 8045
+  servlet:
+    context-path: /lk
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring
+    username: root
+    password: leikai123
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: com.changan.carbond.spring.mapper
+
+
